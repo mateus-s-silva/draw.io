@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.5">
   <diagram name="Página-1" id="q0bPfZXe6nqExq2Bzzsi">
-    <mxGraphModel>
+    <mxGraphModel dx="1500" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-1" value="Client" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-3" value="Solicita autenticação pra api" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-4" value="&lt;div&gt;API/auth-google/authenticate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Verifica se existe algum registro com ID Google enviado pelo cliente&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="245" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="a4Jf9DhClSKtzrauBnGr-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="300" as="sourcePoint" />
+            <mxPoint x="705" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-10" value="Existe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-11" value="Autentica o usuário e devolve o token" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="130" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="347" as="sourcePoint" />
+            <mxPoint x="720" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-14" value="Não existe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-15" value="Verifica se existe um email cadastrado igual ao email google fornecido " style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="380" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="a4Jf9DhClSKtzrauBnGr-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="845" y="440" as="sourcePoint" />
+            <mxPoint x="1010" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-17" value="Registra id google neste usuário" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="270" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-18" value="Existe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.011;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="a4Jf9DhClSKtzrauBnGr-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="845" y="457" as="sourcePoint" />
+            <mxPoint x="1030" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-23" value="Não existe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a4Jf9DhClSKtzrauBnGr-24" value="Cria usuário com email google e id google." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="470" width="125" height="125" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
